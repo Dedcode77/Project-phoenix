@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:poppin;
+    box-sizing: content-box;
+}
+
+body{
+    background-image: url(@EWallpapers\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+   
+}
+
+.card{
+    left: 67%;
+    position: absolute;
+    bottom: 15%;
+    padding: 2%;
+}
+.form-check{
+    padding-bottom: 4%;
+}
+.btn-success{
+    padding-bottom: 4%;
+    border-radius: 0;
+    
+}
+.form-control{
+    padding-bottom: 4%;
+}
+.card-title{
+    font-size: 1.8rem;
+}
+.nav-link{
+    font-size: 0.7rem;
+    font-weight: 500;
+    position: relative;
+}
+.navbar-brand{
+    font-weight:700;
+    
+}
+
+h1{
+text-align:left;
+color: white;
+   position: absolute;
+   left: 20%;
+   bottom: 34%;
+}
+h6{
+    text-align:left;
+color: white;
+   position: absolute;
+   left: 20%;
+   bottom:58%;
+}
+i{
+    color: white;
+    position: absolute;
+   left: 20%;
+   bottom:16%;
+   border-style:solid;
+   border-color: white;
+   border-width: 1px;
+   font-size: 100%;
+   padding: 15px;
+   
+}
+.form-check-label{
+    font-size: 0.7rem;
+}
+div.navbar-nav{
+    position: absolute;
+    left: 6%;
+    
+}
+h5{
+   position: relative;
+    right: 18%;
+}
+
+button.btn.btn-success.btn-lg{
+    border-radius: 7px;
+}
+div.text-white{
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width:320px) {
+  
+.card{
+    position: absolute;
+    left: 31%;
+    bottom: 1%;
+    z-index: -1;
+   padding: 1%;
+   font-size: 0.6rem;
+   width: 64%;
+   
+}
+.form-control{
+    width: 78%;
+}
+body{
+    background-size: cover;
+}
+.btn-success{
+    
+    font-size: 0.5rem;
+    margin-left:10%;
+}
+.nav-link{
+    font-size: 0.7rem;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    
+}
+
+
+.navbar-toggler.nav-link{
+padding-right: 20px;
+outline: none !important;
+border:none !important;
+display: flex;
+}
+.nav-link:hover{
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+
+}
+h1{
+    text-align:center;
+    color: white;
+       position: absolute;
+       left: 2%;
+       bottom: 62%;
+       font-size: 1.5rem;
+       z-index: -1;
+    }
+    h6{
+        text-align:center;
+    color: white;
+       position: absolute;
+       left: 2%;
+       bottom:78%;
+       z-index: -1;
+    }
+    i{
+        color: white;
+        position: absolute;
+       left: 12%;
+       bottom:23%;
+       border-style:solid;
+       border-color: white;
+       border-width: 1px;
+       font-size: 56%;
+       padding: 15px;
+       z-index: -1;
+    }
+    .card-title{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media only screen and  (min-width:561px) {
+    .card{
+        left: 35%;
+        position: absolute;
+        bottom:1%;
+        padding: 2%;
+        width: 45%;
+        font-size: 0.8rem;
+    }
+    
+    body{
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .btn-success{
+        
+        font-size: 1.2rem;
+        
+        
+    }
+    .card-title{
+        font-size: 1.8rem;
+    }
+    .form-control{
+        width: 97%;
+    }
+    .nav-link{
+        font-size: 0.7rem;
+        font-weight: 500;
+        position: relative;
+        display: flex;
+        
+    }
+    
+    
+    .navbar-toggler.nav-link{
+    padding-right: 20px;
+    outline: none !important;
+    border:none !important;
+    display: flex;
+    }
+    .nav-link:hover{
+        font-weight: 600;
+        border-bottom: 1px solid #fff;
+    
+    }
+    h1{
+        text-align:center;
+        color: white;
+           position: absolute;
+           left: 46%;
+           bottom: 64%;
+           font-size: 1.5rem;
+        }
+        h6{
+            text-align:center;
+        color: white;
+           position: absolute;
+           left: 40%;
+           bottom:79%;
+        }
+        i{
+            color: white;
+            position: absolute;
+           left: 12%;
+           bottom:12%;
+           border-style:solid;
+           border-color: white;
+           border-width: 1px;
+           font-size: 56%;
+           padding: 15px;
+           
+        }
+    }
+
+
+@media  only screen  and (min-width:863px) {
+    
+    
+    
+    body{
+        background-image: url(@EWallpapers\ \(6\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+       background-attachment: fixed;
+    }
+    .card{
+        left: 67%;
+        position: absolute;
+        bottom: 15%;
+        padding: 2%;
+        width: 26%;
+    }
+    .form-check{
+        padding-bottom: 4%;
+    }
+    .btn-success{
+        padding-bottom: 4%;
+       font-size:1rem;
+        
+    }
+    .form-control{
+        padding-bottom: 4%;
+        width: 76%;
+    }
+    .card-title{
+        font-size: 2rem;
+    }
+    .nav-link{
+        font-size: 0.7rem;
+        font-weight: 500;
+        position: relative;
+    }
+    .navbar-brand{
+        font-weight:700;
+        
+    }
+    
+    h1{
+    text-align:left;
+    color: white;
+       position: absolute;
+       left: 20%;
+       bottom: 34%;
+       font-size: 2.5rem;
+    }
+    h6{
+        text-align:left;
+    color: white;
+       position: absolute;
+       left: 20%;
+       bottom:58%;
+    }
+    i{
+        color: white;
+        position: absolute;
+       left: 20%;
+       bottom:16%;
+       border-style:solid;
+       border-color: white;
+       border-width: 1px;
+       font-size: 100%;
+       padding: 15px;
+       
+    }
+    .form-check-label{
+        font-size: 0.7rem;
+    }
+    div.navbar-nav{
+        position: absolute;
+        left: 6%;
+        
+    }
+    h5{
+       position: relative;
+        right: 18%;
+    }
+    
+    
+}
